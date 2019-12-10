@@ -1,5 +1,8 @@
 <!--miniprogram/pages/index/index.wxml-->
 <view id="container">
+  <view id="search" class="m0">
+    <mp-searchbar bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
+  </view>
   <view id='banner' class="m0">
       <swiper indicator-dots="{{true}}" indicator-color="#ffffff" autoplay="true" circular="true" indicator-active-color="#3498db">
         <block wx:for="{{banner}}" wx:key="banner">
@@ -9,11 +12,7 @@
         </block>
       </swiper>
   </view>
-  <view id="search">
-    <mp-searchbar bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
-  </view>
   <view id="content" class="m0">
-
+   
   </view>
-
 </view>

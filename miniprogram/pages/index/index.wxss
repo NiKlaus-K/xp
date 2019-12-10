@@ -3,3 +3,8 @@
   /* 设置banner图片圆角 */
   border-radius: 6px;
 }
+#search {
+  /* 设置banner图片圆角 */
+  border-radius: 6px;
+  background-color: red;
+}
