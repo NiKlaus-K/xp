@@ -6,6 +6,7 @@
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
+  margin: 0rpx 15rpx;
 } 
 
 button {
@@ -20,7 +21,7 @@ button::after{
   border: none;
 }
 
-
+/* 页面整体样式 */
 page {
   background: #f6f6f6;
   display: flex;
